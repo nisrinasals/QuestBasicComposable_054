@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
             TataLetakTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     //panggil composable layout utama dengan padding dari Scaffold
-                    TataLetakRowColumn(
+                    TataLetakBoxColumnRow(
                         modifier = Modifier.padding((innerPadding))
                     )
                 }
